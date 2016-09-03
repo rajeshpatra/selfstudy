@@ -3,8 +3,9 @@
 	<head>
 		<title>selfstudy</title>
 		<mets charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="dist/css/mystyle.css">
+		
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/mystyle.css">
 	</head>
 	<body>
 		<header class="container">
@@ -61,10 +62,18 @@
 			<div id="form">
 				<form class="form-signin">
 					<h2 class="form-signin-heading">Please sign in</h2>
-					<label for="inputEmail" class="sr-only">Email address</label>
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
-					<label for="inputPassword" class="sr-only">Password</label>
-					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+
+					<div class="form-group">
+						<label for="inputEmail" class="sr-only">Email address</label>
+					    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
+					</div>
+
+					<div class="form-group">
+						<label for="inputPassword" class="sr-only">Password</label>
+					    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+					</div>
+					
+					
 					<div class="checkbox">
 						<label>
 							<input type="checkbox" value="remember-me"> Remember me
@@ -77,14 +86,27 @@
 
 				<form class="form-signup">
 					<h2 class="form-signup-heading">Please sign up</h2>
-					<label for="inputName" class="sr-only">First Name</label>
-					<input type="name" id="inputName" class="form-control" placeholder="First Name" required focus>
-					<label for="inputName" class="sr-only">Last Name</label>
-					<input type="name" id="inputName" class="form-control" placeholder="Last Name" required focus>
-					<label for="inputEmail" class="sr-only">Email address</label>
+
+					<div class="form-group">
+						<label for="inputName" class="sr-only">First Name</label>
+					<input type="name" id="inputName" class="form-control" placeholder="Name" required focus>
+					</div>
+
+					<div class="form-group">
+						<label for="inputEmail" class="sr-only">Email address</label>
 					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
-					<label for="inputPassword" class="sr-only">Password</label>
-					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+					</div>
+
+					
+					<!--<label for="inputName" class="sr-only">Last Name</label>
+					<input type="name" id="inputName" class="form-control" placeholder="Last Name" required focus> -->
+
+					<div class="form-group">
+						<label for="inputPassword" class="sr-only">Password</label>
+						<input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+					</div>
+					
+					
 					<label for="confirmPassword" class="sr-only">Confirm Password</label>
 					<input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required focus>
 					<label></label>
@@ -93,23 +115,23 @@
 			</div>	
 		</div>
 
-		<section class="container">
+		<section class="container subjects">
 			<div class="row">
-				<a href="#"><div class="col-sm-6">
-					<p>Physics</p>
-					<img src="dist/png/atom.png">
+				<a href="#"><div class="col-sm-6 text-center" style="background: #29B664;">
+					<p class="text-center">Physics</p>
+					<img class="img-responsive" src="dist/png/atom.png">
 				</div></a>
-				<a href="#"><div class="col-sm-6">
-					<p>Chemistry</p>
-					<img src="dist/png/volumetric-flask.png">
+				<a href="#"><div class="col-sm-6 text-center">
+					<p class="text-center">Chemistry</p>
+					<img class="img-responsive" src="dist/png/volumetric-flask.png">
 				</div></a>
-				<a href="#"><div class="col-sm-6">
-					<p>Math</p>
-					<img src="dist/png/drawing-compass.png">
+				<a href="#"><div class="col-sm-6 text-center">
+					<p class="text-center">Math</p>
+					<img class="img-responsive" src="dist/png/drawing-compass.png">
 				</div></a>
-				<a href="#"><div class="col-sm-6">
-					<p>Biology</p>
-					<img src="dist/png/dna-strand.png">
+				<a href="#"><div class="col-sm-6 text-center">
+					<p class="text-center">Biology</p>
+					<img class="img-responsive" src="dist/png/dna-strand.png">
 				</div></a>
 			</div>
 			<div class="row text-center">

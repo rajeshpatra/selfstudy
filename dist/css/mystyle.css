@@ -260,7 +260,7 @@ section .container .row a:hover {
 	width: 5%;
 }
 
-#form input {
-	padding: 1px;
-	/*margin: 2px;*/
+
+.subjects img{
+	display: inline;
 }
