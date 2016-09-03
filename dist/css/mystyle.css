@@ -80,13 +80,13 @@ section .row img {
 	flex-wrap: wrap;
 	justify-content: center;
 	/*align-items: center;*/
-	background-color: white;
+	/*background-color: white;*/
 }
 
 section .row div {
 	border: 15px solid white;
 	/*margin-left: 1px;*/
-	background-color: #61BCF6
+	background-color: #d7aec1
 }
 
 /*section .row {
@@ -110,15 +110,12 @@ section .row div {
 }
 
 .btn-secondary {
-	background-color: #E8DFE0;
+	border-radius: 2px;
+	background-color: #b7d4f1;
 	margin: 0 0 30px;
 	position: relative;
+	text-decoration: none;
 }
-
-.btn-secondary a: active {
-	top: 2px;
-}
-
 
 footer {
 	font-size: 12px;
