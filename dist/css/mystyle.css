@@ -232,4 +232,20 @@ section .container .row a:hover {
 	height: 70%;
 	/*display: flex;*/
 	margin-left: 400px;
+	background-color: 
+	border: 0.5px solid #04c6e9;
+}
+
+.form-signup {
+	width: 30%;
+	height: 70%;
+	/*display: flex;*/
+	margin-left: 400px;
+	background-color: 
+	border: 0.5px solid #04c6e9;
+	/*background-color: #04c6e9;*/
+}
+
+#form {
+
 }
