@@ -231,7 +231,7 @@ section .container .row a:hover {
 	width: 30%;
 	height: 70%;
 	/*display: flex;*/
-	margin-left: 400px;
+	margin-left: 200px;
 	background-color: 
 	border: 0.5px solid #04c6e9;
 }
@@ -240,12 +240,18 @@ section .container .row a:hover {
 	width: 30%;
 	height: 70%;
 	/*display: flex;*/
-	margin-left: 400px;
+	margin-left: 200px;
 	background-color: 
 	border: 0.5px solid #04c6e9;
 	/*background-color: #04c6e9;*/
 }
 
 #form {
+	display: flex;
+	margin: 10px;
+	padding: 2px;
+}
 
+.verticalLine {
+	border-left: 0.5px solid #000000;
 }
