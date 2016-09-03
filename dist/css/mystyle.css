@@ -226,3 +226,10 @@ section .container .row a:hover {
 .col-sm-1 a: {
 	filter: blur(10px);
 }
+
+.form-signin {
+	width: 30%;
+	height: 70%;
+	/*display: flex;*/
+	margin-left: 400px;
+}
