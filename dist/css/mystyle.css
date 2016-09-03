@@ -1,0 +1,167 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row, footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	font-weight: 700;
+	margin: 0;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p {
+	padding: 0 20px;
+	margin: 0;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin: 0;
+	color: #ffffff;
+}
+
+.jumbotron h3 {
+	margin: 0 0 20px;
+	color: #ffffff;
+}
+
+section .row img {
+	margin: 0 0 30px;
+	width: 50%;
+	/*height: 50%;*/
+	padding: 10px;
+}
+
+.btn.btn-primary {
+	border-radius: 2px;
+	border: 0;
+	color: #fbd1d5;
+	text-shadow: none;
+	/*background-color: #ffffff;*/
+}
+
+.btn.btn-primary:hover {
+	color: #ffffff;
+	/*background-color: #fbd1d5;*/
+}
+
+.btn-secondary {
+	background-color: #E8DFE0;
+	margin: 0 0 30px;
+}
+
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*li .col-sm-1 {
+	margin: 20px;
+	padding: 0 0 0 40px;
+}*/
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+	width: 32px;
+	height: 32px;
+}
+
+.col-sm-6 {
+	margin: 0 0 30px;
+}
+
+.menu {
+	background: #E9C4FF;
+	left: -285px;
+	height: 100%;
+	position: fixed;
+	width: 285px;
+}
+
+.menu ul {
+	border-top: 1px solid #636366;
+	list-style: none;
+	margin: 2px;
+	padding: 2px;
+}
+
+.menu li {
+	border-bottom: 1px solid #636366;
+	font-family: 'Opern Sans', sans-serif;
+	line-height: 45px;
+	padding: 3px 0 3px 20px;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icon-close {
+	cursor: pointer;
+	padding: 0;
+	/*height: 50%;
+	width: 50%;*/
+}
+
+.icon-menu {
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  /*padding-left: 25px;*/
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu img {
+	margin-right: 5px;
+	width: 50%;
+	height: 50%;
+	padding: 10px;
+	color: #933EC5;
+}
+
+.icon-close img {
+	margin-right: 5px;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	color: #933EC5;
+}
