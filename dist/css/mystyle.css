@@ -29,6 +29,23 @@ header p {
 	margin: 0;
 }
 
+.col-sm-4 div {
+	margin: 5px;
+	padding: 2px;
+	/*margin-top: 20px;*/
+	/*background-color: black;*/
+	/*height: 50%;
+	width: 50%;*/
+}
+
+#bar img {
+	height: 40px;
+	width: 40px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	display: inline;
+}
+
 .jumbotron {
 	display: flex;
 	align-items: center;
@@ -55,25 +72,27 @@ header p {
 }
 
 section .row img {
-	margin: 0 0 30px;
+	margin: 0 0 30px 170px;
 	width: 30%;
 	height: 30%;
 	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;*/
+	background-color: white;
 }
 
 section .row div {
-	border: 2px solid black;
+	border: 15px solid white;
 	/*margin-left: 1px;*/
+	background-color: #61BCF6
 }
 
-section .row {
+/*section .row {
 	background-color: #61BCF6;
-	/*display: inline;*/
-}
+	/*display: inline;
+}*/*/
 
 .btn.btn-primary {
 	border-radius: 2px;
