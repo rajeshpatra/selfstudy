@@ -217,3 +217,12 @@ footer li img {
 	padding: 10px;
 	color: #933EC5;
 }*/*/
+
+section .container .row a:hover {
+	background-size: 300px;
+}
+
+
+.col-sm-1 a: {
+	filter: blur(10px);
+}
