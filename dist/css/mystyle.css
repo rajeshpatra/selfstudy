@@ -1,6 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	/*background-color: #61BCF6;*/
 }
 
 header {
@@ -10,6 +11,7 @@ header {
 header .row, footer .row {
 	display: flex;
 	align-items: center;
+	/*justify-content: flex-end;*/
 }
 
 header h1 {
@@ -30,6 +32,7 @@ header p {
 .jumbotron {
 	display: flex;
 	align-items: center;
+	/*justify-content: center;*/
 	background-image: url(../images/cover.jpg);
 	background-size: cover;
 	color: #ffffff;
@@ -42,18 +45,34 @@ header p {
 	font-weight: 700;
 	margin: 0;
 	color: #ffffff;
+	padding: 2px;
 }
 
 .jumbotron h3 {
-	margin: 0 0 20px;
+	margin: 0 0 30px;
 	color: #ffffff;
+	padding: 2px;
 }
 
 section .row img {
 	margin: 0 0 30px;
-	width: 50%;
-	/*height: 50%;*/
-	padding: 10px;
+	width: 30%;
+	height: 30%;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+section .row div {
+	border: 2px solid black;
+	/*margin-left: 1px;*/
+}
+
+section .row {
+	background-color: #61BCF6;
+	/*display: inline;*/
 }
 
 .btn.btn-primary {
@@ -61,27 +80,38 @@ section .row img {
 	border: 0;
 	color: #fbd1d5;
 	text-shadow: none;
+	/*padding: 2px;*/
 	/*background-color: #ffffff;*/
 }
 
-.btn.btn-primary:hover {
+.btn.btn-primary a:hover {
 	color: #ffffff;
+	/*padding: 2px;*/
 	/*background-color: #fbd1d5;*/
 }
 
 .btn-secondary {
 	background-color: #E8DFE0;
 	margin: 0 0 30px;
+	position: relative;
 }
+
+.btn-secondary a: active {
+	top: 2px;
+}
+
 
 footer {
 	font-size: 12px;
-	padding: 20px 0;
+	padding: 0;
 }
 
 footer .col-sm-8 {
 	display: flex;
 	justify-content: flex-end;
+	margin: 15px;
+	margin-right: 0px;
+	padding: 2px;
 }
 
 /*li .col-sm-1 {
@@ -100,9 +130,11 @@ footer li img {
 
 .col-sm-6 {
 	margin: 0 0 30px;
+	padding: 2px;
+	border: 1px solid;
 }
 
-.menu {
+/*.menu {
 	background: #E9C4FF;
 	left: -285px;
 	height: 100%;
@@ -134,8 +166,8 @@ footer li img {
 .icon-close {
 	cursor: pointer;
 	padding: 0;
-	/*height: 50%;
-	width: 50%;*/
+	height: 50%;
+	width: 50%;
 }
 
 .icon-menu {
@@ -144,7 +176,7 @@ footer li img {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding-bottom: 25px;
-  /*padding-left: 25px;*/
+  /*padding-left: 25px;
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
@@ -164,4 +196,4 @@ footer li img {
 	height: 60px;
 	padding: 10px;
 	color: #933EC5;
-}
+}*/*/
