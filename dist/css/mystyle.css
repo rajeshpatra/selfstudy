@@ -148,6 +148,10 @@ footer li img {
 	margin: 0 0 30px;
 	padding: 2px;
 	border: 1px solid;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 /*.menu {
