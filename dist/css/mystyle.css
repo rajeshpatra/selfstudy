@@ -1,7 +1,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	/*background-color: #61BCF6;*/
+	/*background-color: black;*/
+	/*background: black;*/
 }
 
 header {
@@ -80,7 +81,7 @@ header p {
 	padding: 2px;
 }
 
-section .row img {
+/*section .row img {
 	margin: 0 0 30px 170px;
 	width: 30%;
 	height: 30%;
@@ -89,13 +90,13 @@ section .row img {
 	flex-wrap: wrap;
 	justify-content: center;
 	/*align-items: center;*/
-	/*background-color: white;*/
+	/*background-color: white;*/*/
 }
 
 section .row div {
-	border: 15px solid white;
+	/*border: 15px solid white;*/
 	/*margin-left: 1px;*/
-	background-color: #d7aec1
+	/*background-color: #d7aec1*/
 }
 
 /*section .row {
@@ -154,12 +155,12 @@ footer li img {
 }
 
 .col-sm-6 {
-	margin: 0 0 25px;
-	padding: 2px;
-	border: 1px solid;
-	text-transform: uppercase;
+	/*margin: 0 0 25px;*/
+	/*padding: 2px;*/
+	/*border: 1px solid;*/
+	/*text-transform: uppercase;*/
 	/*text-align: left;*/
-	font-size: 40px;
+	/*font-size: 40px;*/
 	/*text-align: center;*/
 	/*text-align: justify;*/
 	/*color: black;*/
@@ -252,27 +253,6 @@ section .container .row a:hover {
 	filter: alpha(opacity=100);
 }
 
-.form-signin {
-	width: 30%;
-	height: 70%;
-	/*display: flex;*/
-	margin: 0 50px 0 0 ;
-	margin-left: 200px;
-	/*align: center;*/
-	/*font-size: 200px;*/
-
-}
-
-.form-signup {
-	width: 30%;
-	height: 70%;
-	/*display: flex;*/
-	/*margin-left: 10px;*/
-	/*background-color: */
-	/*border: 0.5px solid #04c6e9;*/
-	/*background-color: #04c6e9;*/
-	margin-right: 200px;
-}
 
 #form {
 	display: flex;
@@ -292,6 +272,11 @@ section .container .row a:hover {
 	/*width: 10%;*/
 }
 
+.container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .subjects img{
 	display: inline;
 }
@@ -305,4 +290,43 @@ section .container .row a:hover {
 	text-align: center;
 	/*font-size: 50px;*/
 	color: #34495E;
+
+}
+
+.subject{
+	/*height: 100px;*/
+	/*height: 250px;
+	width: 100px;
+	width: 47.5%;
+	background-color: #efefef;*/
+}
+
+.col-sm-5.subject{
+	width: 47.5%;
+}
+
+.subject-left{
+	margin-right: 2.5%;
+
+}
+
+.subject-right{
+	margin-left: 2.5%;
+}
+
+.text-center {
+	font-size: 40px;
+	padding: 2px;
+}
+
+.text-center img {
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	padding: 2px;
+	filter: opacity(60%);
+}
+
+.text-center:hover {
+	color: white;
 }

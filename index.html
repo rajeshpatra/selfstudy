@@ -4,7 +4,6 @@
 	<head>
 		<title>selfstudy: study online</title>
 		<mets charset="utf-8"/>
-		
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="dist/css/mystyle.css">
 	</head>
@@ -70,85 +69,114 @@
 		</section>
 
 		<div class="container">
-			<div id="form">
-				<form class="form-signin">
-					<h2 class="form-signin-heading">Sign In</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="col-sm-7 col-sm-offset-5">
+						<h3 class="form-signin-heading">Sign In</h3>
+						<form class="form-signin">
 
-					<div class="form-group">
-						<label for="inputEmail" class="sr-only">Email address</label>
-					    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
-					</div>
+							<div class="form-group">
+								<label for="inputEmail" class="sr-only">Email address</label>
+							    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
+							</div>
 
-					<div class="form-group">
-						<label for="inputPassword" class="sr-only">Password</label>
-					    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
-					</div>
-					
-					
-					<div class="checkbox">
-						<label>
-							<input type="checkbox" value="remember-me"> Remember me
-						</label>
-					</div>
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-				</form>
-
-				<div class="verticalLine"></div>
-
-				<form class="form-signup">
-					<h2 class="form-signup-heading">Sign Up</h2>
-
-					<div class="form-group">
-						<label for="inputName" class="sr-only">First Name</label>
-					<input type="name" id="inputName" class="form-control" placeholder="Name" required focus>
-					</div>
-
-					<div class="form-group">
-						<label for="inputEmail" class="sr-only">Email address</label>
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
-					</div>
-
-					
-					<!--<label for="inputName" class="sr-only">Last Name</label>
-					<input type="name" id="inputName" class="form-control" placeholder="Last Name" required focus> -->
-
-					<div class="form-group">
-						<label for="inputPassword" class="sr-only">Password</label>
-						<input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+							<div class="form-group">
+								<label for="inputPassword" class="sr-only">Password</label>
+							    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+							</div>
+							
+							
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" value="remember-me"> Remember me
+								</label>
+							</div>
+							<button class="btn btn-sm btn-success btn-block" type="submit">Sign in</button>
+						</form>
 					</div>
 					
+				</div>
+
+				<div class="col-sm-6"  style="border-left: 1px solid #ddd;">
+					<div class="col-sm-7">
+						<h3 class="form-signup-heading">Sign Up</h3>
+						<form class="form-signup">
+							
+
+							<div class="form-group">
+								<label for="inputName" class="sr-only">First Name</label>
+							<input type="name" id="inputName" class="form-control" placeholder="Name" required focus>
+							</div>
+
+							<div class="form-group">
+								<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required focus>
+							</div>
+
+						
+
+							<div class="form-group">
+								<label for="inputPassword" class="sr-only">Password</label>
+								<input type="password" id="inputPassword" class="form-control" placeholder="Password" required focus>
+							</div>
+							
+							
+							<label for="confirmPassword" class="sr-only">Confirm Password</label>
+							<input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required focus>
+							<label></label>
+							<button class="btn btn-sm btn-primary btn-block" type="submit">Sign up</button>
+						</form>
+					</div>
 					
-					<label for="confirmPassword" class="sr-only">Confirm Password</label>
-					<input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required focus>
-					<label></label>
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
-				</form>
-			</div>	
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<hr />
+			</div>
 		</div>
 
 		<section class="container subjects">
 			<div class="row">
-				<a href="#"><div class="col-sm-6 text-center" style="background: #29B664;">
-					<p class="text-center">Physics</p>
-					<img class="img-responsive" src="dist/png/atom.png">
-				</div></a>
-				<a href="#"><div class="col-sm-6 text-center" style="background: #3498db">
-					<p class="text-center">Chemistry</p>
-					<img class="img-responsive" src="dist/png/volumetric-flask.png">
-				</div></a>
-				<a href="#"><div class="col-sm-6 text-center">
-					<p class="text-center">Mathematics</p>
-					<img class="img-responsive" src="dist/png/drawing-compass.png">
-				</div></a>
-				<a href="#"><div class="col-sm-6 text-center" style="background: #2ecc71">
-					<p class="text-center">Biology</p>
-					<img class="img-responsive" src="dist/png/dna-strand.png">
-				</div></a>
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="row" style="margin-bottom: 50px;">
+						<div class="subject subject-left col-sm-5 text-center" style="cursor: pointer; background-color:#3498db">
+							<p class="text-center">Physics</p>
+							<img class="img-responsive" src="dist/png/atom.png">
+						</div>
+
+						<div class="subject subject-right col-sm-5 text-center" style="cursor:pointer; background-color:#A9CF54">
+							<p class="text-center">Chemistry</p>
+							<img class="img-responsive" src="dist/png/volumetric-flask.png">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="subject subject-left col-sm-5 text-center" style="cursor:pointer; background-color:#F7E967">
+							<p class="text-center">Mathematics</p>
+							<img class="img-responsive" src="dist/png/drawing-compass.png">
+						</div>
+
+						<div class="subject subject-right col-sm-5 text-center" style="cursor:pointer; background-color:#1abc9c">
+							<p class="text-center subject-name">Biology</p>
+							<img class="img-responsive" src="dist/png/dna-strand.png">
+						</div>
+					</div>
+				</div>
+				
 			</div>
-			<div class="row text-center">
+			<div class="col-sm-12 text-center" style="margin-top: 20px;">
 				<a class="btn btn-secondary" href="#">View more</a>
 			</div>
 		</section>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<hr />
+			</div>
+		</div>
 
 		<footer class="container">
 			<div class="row">
