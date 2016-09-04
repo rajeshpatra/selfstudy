@@ -242,6 +242,16 @@ section .container .row a:hover {
 	filter: blur(10px);
 }
 
+.col-sm-1 img {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.col-sm-1 img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
 .form-signin {
 	width: 30%;
 	height: 70%;
