@@ -166,6 +166,9 @@ footer li img {
 	/*font-weight: 600;*/
 }
 
+
+/*<!-- trying slide menu bar -->*/
+
 /*.menu {
 	background: #E9C4FF;
 	left: -285px;
@@ -246,6 +249,7 @@ section .container .row a:hover {
 	margin: 0 50px 0 0 ;
 	margin-left: 200px;
 	/*align: center;*/
+	/*font-size: 200px;*/
 
 }
 
@@ -280,4 +284,15 @@ section .container .row a:hover {
 
 .subjects img{
 	display: inline;
+}
+
+.form-signin-heading {
+	text-align: center;
+	color: #34495E;
+}
+
+.form-signup-heading {
+	text-align: center;
+	/*font-size: 50px;*/
+	color: #34495E;
 }
